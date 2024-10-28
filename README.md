@@ -10,11 +10,11 @@ Prerequsites
 
 Step 1. Clone the repository
 ```
-git clone https://github.com/Simranstha045/k6-load-testing-example.git
+git clone https://github.com/Simranstha045/K6-example.git
 ```
 Step 2.Navigate to the repository directory
 ```
-cd k6-load-testing-example/
+cd K6-example/
 ```
 
 Step 3. Start Grafana and InfluxDB
@@ -40,7 +40,7 @@ docker ps
 ```
 Step 2. Run the K6 test scripts.
 ```
-docker-compose run k6 run /scripts/PurificationLoad.js
+docker-compose run k6 run /scripts/ewoks.js
 ```
 Step 3. View the real time results in the dashboard.
 http://localhost:3000/d/k6/k6-load-testing-results 
